@@ -1,3 +1,4 @@
+
 main() {
 // ==========Q1==========
 // int breadth = 5;
@@ -46,4 +47,48 @@ main() {
 //   print("it is not a leap year");
 // }
 
+
+
+
+// ==========Q5==========
+// num temperature = 42;
+// if(temperature < 0){
+//   print("Freezing weather");
+// }
+// else if(temperature == 0 && temperature <=10){
+//   print("Very Cold Weather");
+// }
+// else if(temperature== 11 && temperature <=20 ){
+//   print("Cold weather");
+// }
+// else if(temperature == 21 && temperature <=30){
+//   print("Normal Temperature");
+// }
+// else if(temperature == 31 && temperature <=40){
+//   print("Hot");
+// }
+// else if(temperature>=40){
+//   print("Very hot");
+// }
+
+
+
+// ==========Q6==========
+// String alphabet = 'b';
+// if(alphabet == "a" || alphabet=="e" || alphabet=="i"|| alphabet=="o" || alphabet=="u"){
+//   print("It is a vowel");
+// }
+// else{
+//   print("It is a consonant");
+// }
+
+
+
+
+
+
+
+
 }
+
+
