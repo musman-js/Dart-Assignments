@@ -1,3 +1,5 @@
+
+
 void main(){
 
   // =====Q1====
@@ -47,7 +49,17 @@ void main(){
 
 
   // =====Q5====
-  
+  // List integer  = [1,2,3,4,5,6,7,8];
+  // var integerLength  =integer.length;
+  // var maximumValue = integer.lastIndexOf(integerLength)+1;
+  // // print(maximumValue);
+
+  // if(integerLength == maximumValue ){
+  //   print("It is the maximum Value ${integerLength}");
+  // }
+  // else{
+  //   print("error");
+  // }
 
 
 }
