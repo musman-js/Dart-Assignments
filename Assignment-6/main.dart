@@ -41,6 +41,67 @@ main(){
   // print(name["age"]);
   // print(name["field"]);
 
+
+  //Q6
+  // Map world = {
+  //   "Pakistan":{
+  //     "capitalCity":"Islamabad",
+  //     "currency":"Rupee",
+  //     "language":"Urdu"
+  //   },
+  //   "India":{
+  //     "capitalCity":"Mumbai",
+  //     "currency":"Rupee",
+  //     "language":"Hindi"
+  //   },
+  //   "America":{
+  //     "capitalCity":"NewYork",
+  //     "currency":"dollar",
+  //     "language":"English"
+  //   }
+  // };
+
+  // print(world["Pakistan"]);
+
+
+
+  //Q7
+// Map<String,double> expenses = {
+//  'sun':3000.0,
+//  'mon':3000.0,
+//  'tue':3234.0
+// };
+
+// print( expenses.keys); //firday does'nt exist.
+// expenses.addAll({'fri':5000.0});
+// print(expenses);
+
+
+
+
+//Q8
+
+List usersEligibility = [
+  {
+    'name': 'John',
+    'eligible': true
+  },
+  {
+    'name': 'Alice',
+    'eligible': false
+  },
+  {
+    'name': 'Sarah',
+    'eligible': true
+  },
+  {
+     'name': 'Tom',
+     'eligible': false
+  }
+];
+
+usersEligibility.removeWhere((user) => user['eligible'] == false );
+print(usersEligibility);
   
   
 }
