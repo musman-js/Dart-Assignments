@@ -79,29 +79,43 @@ main(){
 
 
 
-//Q8
+ //Q8
+// List usersEligibility = [
+//   {
+//     'name': 'John',
+//     'eligible': true
+//   },
+//   {
+//     'name': 'Alice',
+//     'eligible': false
+//   },
+//   {
+//     'name': 'Sarah',
+//     'eligible': true
+//   },
+//   {
+//      'name': 'Tom',
+//      'eligible': false
+//   }
+// ];
 
-List usersEligibility = [
-  {
-    'name': 'John',
-    'eligible': true
-  },
-  {
-    'name': 'Alice',
-    'eligible': false
-  },
-  {
-    'name': 'Sarah',
-    'eligible': true
-  },
-  {
-     'name': 'Tom',
-     'eligible': false
-  }
-];
+// usersEligibility.removeWhere((user) => user['eligible'] == false );
+// print(usersEligibility);
+  
 
-usersEligibility.removeWhere((user) => user['eligible'] == false );
-print(usersEligibility);
+
+  //Q9
+  // List integar = [8,1,2,3,4,5,6];
+  // // print(integar.sort); 
+  // integar.sort();
+  // print(integar);
+  // print(integar.last);
+
+
+  //Q10
+  // List originalList = ["apple", "banana", "apple", "orange", "banana", "grape"];
+  // List uniqueList = originalList.toSet().toList();
+  // print(uniqueList);
   
   
 }
