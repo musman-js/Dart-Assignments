@@ -112,10 +112,72 @@ main(){
   // print(integar.last);
 
 
+
   //Q10
   // List originalList = ["apple", "banana", "apple", "orange", "banana", "grape"];
   // List uniqueList = originalList.toSet().toList();
   // print(uniqueList);
+
+
+
+  //Q12
+  // List days = ['monday','tuesdsay','wednesday','thursday','friday','saturday','sunday'];
+  // print('Orignal Days ${days}');
+  // print('Reversed Days ${days.reversed}');
   
+
+
+  //Q13
+  // List integar = [1,2,5,3,4,7,5,6,7,];
+  // print(integar.toSet().toList());  //The Order is same  
   
+
+
+  //Q14
+  // List<int> num = [5,4,3,2,1,0];
+  // List<int> copy  = List.from(num);     //Making Copy of List num
+  // copy.sort();
+  // print(copy);
+  
+
+
+
+  //Q15
+  //   List number = [-2,-1,0,1,2];
+  //  number.removeWhere((num) => num<0);  
+  //  print(number);
+
+
+
+  //Q16
+  // List integar  =  [1,2,3,4,5,6,7,8,9,10];
+  // var oddNum  = integar.where((num) => num%3 == 0).toList();
+  // print(oddNum);  
+
+
+
+  //Q17
+  // List orignal = [1,2,3,4,5,6,7];
+  // var square =   orignal.map((num) => num*num);
+  // print(square);  
+
+
+
+  //Q18
+  // Map person = {
+  //   'name':"John",
+  //   'age': 25,
+  //   'isStudent': true
+  // };
+
+  // if(person['isStudent'] == true && person['age'] >=18){
+  //   print("eligible");
+  // }
+  // else{
+  //   print("Not eligible");
+  // }
+
+
+
+
 }
