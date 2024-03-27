@@ -179,5 +179,75 @@ main(){
 
 
 
+  
+  //Q19
+  // Map product = {
+  //   'name': 'Milk',
+  //   'quantity': 3,
+  // };
+
+  // if(product['quantity'] >=0 ){
+  //   print('In Stock');
+  // }
+  // else{
+  //   print('Out of Stock');
+  // }
+
+
+  
+  //Q20
+  // Map car = {
+  //   'brand':'Toyota',
+  //   'color':'red',
+  //   'isSedan': true
+  // };
+
+  // if(car['color'] == 'red' && car['isSedan'] == true){
+  //   print("Match");
+  // }
+  // else{
+  //   print('Not Match');
+  // }
+
+
+
+  
+  //Q21
+//  Map user = {
+//     'name':'Usman',
+//      'isAdmin': true,
+//      'isActive' : true
+//   };
+
+//   if(user['isAdmin']==true && user['isActive']==true){
+//     print('Active admin');
+//   }
+//   else{
+//     print('Not an active admin');
+//   }
+
+
+
+  
+  //Q22
+  // Map shopping = {
+  //   'productName':['mango','apple','banana'],
+  //   'quantity': "depends on customer"
+  // };
+
+  // var productName = shopping['productName'];
+  
+  // var userProduct  = 'apple';
+
+  // if(userProduct == productName[1]){
+  //   print("It is available");
+  // }
+  // else{
+  //   print('It is not available');
+  // }
+
+
+
+
 
 }
