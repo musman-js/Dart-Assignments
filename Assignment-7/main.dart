@@ -1,6 +1,13 @@
 import 'dart:io';
 
+
 main() {
+
+//Q1
+// not understand
+
+
+
 //Q2
 // var arr = [1,2,4,5,3,10,20,45,33];
 // arr.sort();
@@ -47,6 +54,32 @@ main() {
 
 
   //Q6
+  // List number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+  // for(var i in number){
+  //   if(i>5){
+  //     print(i);
+  //   }
+  // }
+
+
+
+  //Q7
+//   var vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+//   var inputString = "dart";
+//   print('There are ${vowel(inputString, vowels)} vowels in the input string.');
+
 
 
 }
+
+//  vowel(inputString,  vowels) {
+//   var count = 0;
+
+//   for (var i = 0; i < inputString.length; i++) {
+//     if (vowels.contains(inputString[i])) {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
