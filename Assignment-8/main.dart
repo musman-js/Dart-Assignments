@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
  main(){
   
 
@@ -26,19 +27,22 @@ import 'dart:io';
   // stdout.write("Enter length to generate password : ");
   // var userlength = stdin.readLineSync()!;
   // var number = int.parse(userlength);
-  // var password = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  // var length = number;
-  // print(length);
+  // var str = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  // var password = '';
   
-  // if(number == 0){
-  //   print("Sorry the length mush be 1");
+  // var i=0;
+  // while (i< number) {
+  //   i++;
+  //   var randomNumber = Random().nextInt(str.length);
+  //   password+= str[randomNumber];
+    
   // }
-  // else{
-  //    while(number != 0){
-  //       print(password.length);
-  //    }
+
+  // print(password);
+
+
+ 
   
-  // }
 
 
 
@@ -52,6 +56,8 @@ import 'dart:io';
   //   i++;
   //   print('$number x $i = ${i*tableNum}');
   // }
+
+
 
 
   //Q4
@@ -102,6 +108,38 @@ import 'dart:io';
 
 
 
+  //Q8
+  // var i = 11;
+  // while (i>=2) {
+  //   i--;
+  //   print(i);
+  // }
+
+
+
+
+  //Q9
+  // var i = 0;
+  // do {
+  //   i++;
+  //   print(i*i);
+  // } while (i<=4);
+
+
+
+
+  //Q10
+  // var number = [1,2,3,4,5,6,7];
+  // var i=0;
+  // var sum = 0;
+  // do {
+  //   i++;
+  //   sum+=i; 
+  // } while (i<number.length);
+
+  //   var average = sum / number.length;
+  //   print(average);
+
 
 
   //Q12
@@ -110,6 +148,5 @@ import 'dart:io';
   //   print(i*2);   
   //   i++;
   // } while (i<=10);
- 
 
  }
